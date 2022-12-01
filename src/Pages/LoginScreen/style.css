@@ -1,0 +1,70 @@
+.loginContent {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.textInput {
+    height: 30px;
+    width: 90px;
+    border-color: red;
+}
+
+.loginImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logoStyle {
+    height: 100px;
+    width: 70px
+}
+
+.loginButton {
+    width: 260px;
+    color: '#fff'
+}
+
+.bar {
+    padding: 10px;
+    color: #333;
+    background: #f9dada;
+    border: 1px solid #f86d6d;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.Right_align{
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_box{
+    width:400px;
+    text-align:center;
+}
+/* .input_width{
+    width:100%;
+    background: red;
+} */
+.input_width .MuiFormControl-root {
+     width:100%;
+     margin-bottom:10px;
+  }
+  .input_width .MuiButton-root {
+    width:100%;
+    margin-bottom:10px;
+ }
+
+ .login_box h5{
+    margin-bottom: 5px;
+ }
+ .span_text{
+    margin-bottom: 5px;
+ }
+ .Right_align .footer_text{
+    width:unset !important;
+ }

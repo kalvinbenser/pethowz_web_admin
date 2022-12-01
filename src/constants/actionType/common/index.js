@@ -1,0 +1,11 @@
+const INSERTED = 'Inserted Sucessfully';
+const UPDATED = 'Updated Sucessfully';
+const FAILED = 'Something went wrong. Please try again';
+const SUCCESS = 'success';
+const ERROR = 'error';
+const INITIAL = 'INITIAL';
+const INITIAL_LOAD = 'On page load';
+const CATCH = 'Action not held';
+const DELETE = 'Deleted data Successful';
+const LOGIN = 'Login Successfull';
+export { CATCH, ERROR, SUCCESS, FAILED, UPDATED, INSERTED, INITIAL, INITIAL_LOAD, DELETE, LOGIN };

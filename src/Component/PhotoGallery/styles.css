@@ -1,0 +1,4 @@
+.photoGalleryView div {
+    flex-flow: row-reverse !important;
+    overflow-x: auto !important;
+}

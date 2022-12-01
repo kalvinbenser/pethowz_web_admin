@@ -1,0 +1,17 @@
+.headerContainer {
+    padding: 10;
+    justify-content: flex-end;
+    padding: 10px
+}
+
+.userImage {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.userName {
+    padding: '5px';
+    align-self: center;
+}

@@ -1,0 +1,49 @@
+.progressSet {
+    position: relative;
+    width: 99%;
+    padding-left: 20px;
+    padding-right: 10px;
+    align-self: center;
+    margin: 5px;
+}
+
+.box {
+    position: relative;
+    height: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    padding: 5px
+}
+
+.fileName {
+    color: #2C3051 !important;
+    padding-left: 38px;
+}
+
+.crossIcon {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    justify-content: flex-end;
+    right: 0px;
+}
+
+.pdfView {
+    padding: 3px;
+    border: 1px solid #FF9062;
+    border-radius: 2px;
+    display: inline-block;
+    position: absolute;
+    height: 22px;
+    width: 22px;
+}
+
+/* .textStyle {
+    font-size: 5px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    color: red;
+} */

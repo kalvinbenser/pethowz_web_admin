@@ -1,0 +1,21 @@
+.dividerStyle {
+    border-bottom: 1px dashed #1F54C326;
+    /* margin-bottom: 30px; */
+}
+
+.headerStyle {
+    font-size: 12px;
+    color: 'red'
+}
+
+.textValue {
+    font-size: 12px;
+    color: '#2C3051';
+}
+.title_text_page h6{
+    font-size: 30px;
+}
+
+/* .photoGalleryView {
+    flex-flow: row-reverse !important;
+} */

@@ -1,0 +1,64 @@
+.fileUploadImage {
+    height: 60px;
+    width: 40px;
+}
+
+.root {
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.textView {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.fileText {
+    font-size: 12px;
+}
+
+.fileUploader {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: -200px;
+    top: -200px;
+    background: transparent;
+}
+
+.preview {
+    margin-top: 50px;
+}
+
+.imagePreview {
+    height: 70px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+
+}
+
+.imageViewer {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.uploadImageContainer {
+    height: 40px;
+    width: 250px;
+    border: 1px solid #FF9062;
+    background-color: 'red';
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}

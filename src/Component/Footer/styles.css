@@ -1,0 +1,21 @@
+.copyRightImg {
+    height: '30px' !important;
+    width: '30px' !important;
+}
+
+.text {
+    font-size: '10px';
+    /* padding-top: '4px'; */
+}
+.footer_text{
+    position: absolute;
+    bottom: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+}
+.footer_text img{
+    padding-right: 5px;
+}

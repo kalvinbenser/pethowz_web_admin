@@ -1,0 +1,124 @@
+.tables {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tables tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.thead {
+  position: sticky;
+  background-color: #ff9062;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+  font-weight: none;
+}
+
+.thData {
+  padding: 10px;
+}
+
+.tdData {
+  padding: 10px 20px;
+  border-bottom: 1px solid #fff;
+  color: #2c3051;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+.rowValue {
+  width: 100%;
+}
+
+.monthBackground {
+  padding: 10px 20px;
+  border-bottom: 1px solid red;
+  color: var(--bluePrimary);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 10px;
+  background: #faf3d7;
+}
+
+.monthHeader {
+  display: grid;
+  grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+  border-left: 1px solid #f7f7f7;
+  border-top: 1px solid #f7f7f7;
+}
+
+.statusHeader {
+  padding: 0.3rem 1rem;
+  color: #dcb209;
+}
+
+.monthTdLast {
+  text-align: center;
+  padding: 0.3rem;
+  color: #130f3f;
+}
+
+.rowHeader .css-n2cphu-MuiTypography-root {
+  color: white;
+}
+
+.lastMdaData .tdData {
+  padding: 10px 11px;
+  width: 13.28%;
+}
+
+.slidingBtn {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+.slideThData {
+  color: yellow !important;
+  padding: 10px;
+}
+
+div::-webkit-scrollbar {
+  width: 0.4em !important;
+  height: 5px !important;
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: var(--pinkPrimary);
+  outline: 1px solid var(--pinkPrimary);
+}
+
+.optionalIcons {
+  display: flex;
+  padding: 10px 0px 0px 0px;
+  align-items: center;
+  justify-content: center;
+  /* border-bottom: 1px solid var(--whiteSecondary); */
+  padding-bottom: 11px;
+  cursor: pointer;
+}
+
+.iconStyle {
+  height: 14px !important;
+  width: 14px !important;
+  padding: 2px;
+}
+.emptyDataDiv {
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.searchGrid{
+  display: grid;
+  justify-content: flex-end;
+  margin: 10px;
+}
